@@ -12,6 +12,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1.5fr .5fr 20% 20% 20%;
+    align-items: stretch;
 }
 
 main h1 {
@@ -37,6 +38,10 @@ main h1 {
     font-size: 30px;
     border-bottom: 2px solid white;
     width: 100%;
+}
+
+.se3 {
+    width: 90%;
 }
 
 article {
@@ -126,5 +131,5 @@ section.A5 {
 }
 
 .diffont {
-    font-size: 11px;
+    font-size: 12px;
 }
