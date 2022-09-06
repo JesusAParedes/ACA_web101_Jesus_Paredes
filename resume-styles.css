@@ -6,9 +6,9 @@ body{
 
 
 main {
-    background-image: url(/ResumeBackground.jpg);
+    background-image: url("/ResumeBackground.jpg");
     width: 100vh;
-    height: 100vh;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1.5fr .5fr 20% 20% 20%;
