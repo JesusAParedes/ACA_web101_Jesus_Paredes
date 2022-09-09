@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contact-styles.css">
+    <title>Contact Me</title>
+    <img src="./SpaceMoons.jpg" alt="SpaceMoons">
+    <h1>Contact Page</h1>
+</head>
+<body>
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+        <div>
+          <label for="fname">First Name</label>
+          <input type="text" name="fname" id="fname" >
+      </div>
+
+      <div>
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname" >
+       </div>
+
+       <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="1" max="200" step="5">
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+      </div>
+
+      <div class="checkbox">
+        <p>How did you hear about me?</p>
+        <input type="checkbox" name="checkbox" id="classmate">
+        <label for="checkbox">Classmate</label>
+      
+        <input type="checkbox" name="checkbox" id="resumesubmission">
+        <label for="checkbox">Resume Submission</label>
+      
+        <input type="checkbox" name="checkbox" id="linkedin">
+        <label for="checkbox">LinkedIn</label>
+      
+        <input type="checkbox" name="checkbox" id="codingacademyrec">
+        <label for="checkbox">Coding Academy Rec</label>
+      </div>
+
+      <div>
+        <p>Would you like to be contacted back?</p>
+        <input type="radio" name="contact" id="yes">
+        <label for="contact">Yes</label>
+      
+        <input type="radio" name="contact" id="no">
+        <label for="contact">No</label>
+      </div>
+
+      <div>
+        <label for="date">Birthdate</label>
+        <input type="date" name="date" id="date" min="2019-06-10">
+      </div>
+
+      <div>
+        <label for="comments">Comments</label>
+        <textarea name="comments" id="comments" cols="30" rows="10" minlength="20" maxlength="500">
+
+        </textarea>
+       </div>
+
+       <div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+       </div> 
+
+       <script src="scripts.js"></script>
+    <!-- <script src="scripts.js"></script> -->
+</body>
+</html>
