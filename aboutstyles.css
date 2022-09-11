@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(82, 96, 171);
+    height: 100%;
+    width: auto;
+    /* color: white; */
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+    align-items: center;
+}
+
+.email {
+    border-radius: 10px;
+    width: fit-content;
+    background: rgb(239, 212, 234);
+}
+
+.profile {
+    height: 1000px;
+    width: auto;
+    margin-top: 250px
+}
+
+h1 {
+    font-size: 210px;
+    margin-right: 10px;
+}
+
+
+#contact {
+    font-size: 40px;
+    text-align: right;
+    position: relative;
+}
+
+a {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+
+a:hover {
+    opacity: 1;
+    left: 0;
+    width: fit-content;
+    /* border-radius: 10px; */
+    background: rgb(239, 212, 234);
+}
+
+
+.otherContact {
+    height: 75px;
+    width: auto;
+    margin-right: 150px;
+    padding-left: 100px;
+}
+
+p {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 150px;
+}
+
+h4, h5 {
+    font-size: 60px;
+}
+
+.two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.hwork, .hhome {
+    font-size: 75px;
+}
+
+.work, .home {
+    font-size: 70px;
+}
+
+.hwork {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.work {
+    grid-column: 2/5;
+    grid-row: 1/2;
+}
+
+img {
+    height: 490px;
+    width: auto;
+}
+
+.dog1, .dog2, dog3, dog4 {
+    grid-row: 2/3;
+}
+
+.dog1 {
+    grid-column: 1/2;
+}
+
+.dog2 {
+    grid-column: 2/3;
+}
+
+.dog3 {
+    grid-column: 3/4;
+}
+
+.dog4 {
+    grid-column: 4/5;
+}
+
+.hhome, .home {
+    grid-row: 3/4;
+}
+
+.hhome {
+    grid-column: 1/2;
+}
+
+.home {
+    grid-column: 2/5;
+}
+
+.middle, .bot {
+    display: flex;
+    flex-direction: column;
+}
+
+.resume {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.partone, .parttwo, .partthree {
+    grid-column: 1/2;
+}
+
+.partfour, .partfive, .partsix {
+    grid-column: 3/4;
+}
+
+.partone, .partfour, p7, p10 {
+    grid-row: 1/2;
+}
+
+.parttwo, .partfive, .p8, .p11 {
+    grid-row: 2/3;
+}
+
+.partthree, .partsix, .p9, .p12 {
+    grid-row: 3/4;
+}
+
+.p7, .p8, .p9 {
+    grid-column: 2/3;
+}
+
+.p10, .p11, .p12 {
+    grid-column: 4/5;
+}
+
+@media (max-width: 1500px) {
+    .profile {
+        height: 600px;
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 120px;
+        margin-right: 10px;
+    }
+
+    .otherContact {
+        height: 50px;
+        width: auto;
+        margin-right: 120px;
+        padding-left: 85px;
+    }
+
+    p {
+        font-size: 45px;
+    }
+    
+    h2 {
+        font-size: 75px;
+    }
+    
+    h4, h5 {
+        font-size: 50px;
+    }
+
+    .hwork, .hhome {
+        font-size: 60px;
+    }
+    
+    .work, .home {
+        font-size: 40px;
+    }
+
+    img {
+        height: 325px;
+        width: auto;
+    }
+
+}
+
+/* Portrait Phones */
+@media (max-width: 1100px) {
+    .profile {
+        height: 500px;
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 100px;
+        margin-right: 10px;
+    }
+
+    .otherContact {
+        height: 35px;
+        width: auto;
+        margin-right: 100px;
+        padding-left: 75px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 60px;
+    }
+    
+    h4, h5 {
+        font-size: 30px;
+    }
+
+    .hwork, .hhome {
+        font-size: 35px;
+    }
+    
+    .work, .home {
+        font-size: 30px;
+    }
+
+    img {
+        height: 250px;
+        width: auto;
+    }
+}
