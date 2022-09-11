@@ -53,7 +53,6 @@ a:hover {
     opacity: 1;
     left: 0;
     width: fit-content;
-    /* border-radius: 10px; */
     background: rgb(239, 212, 234);
 }
 
@@ -191,6 +190,10 @@ img {
         margin-right: 10px;
     }
 
+    #contact, a {
+        font-size: 30px;
+    }
+
     .otherContact {
         height: 50px;
         width: auto;
@@ -235,6 +238,10 @@ img {
     h1 {
         font-size: 100px;
         margin-right: 10px;
+    }
+
+    #contact, a {
+        font-size: 20px;
     }
 
     .otherContact {
